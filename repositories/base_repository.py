@@ -1,11 +1,12 @@
-import sqlite3
+from database.db import database
 
 
 class BaseRepository:
 
-    def __init__(self, connection):
+    def __init__(self, connection=None):
 
-        self.connection = connection
+        # Explicit connections remain supported for callers that own a transaction.
+        self.connection = connection or database.connect()
 
     def execute(self, sql, params=()):
 

@@ -1,9 +1,11 @@
-import sqlite3
-
-DB = "database/silent.db"
+from database.db import database
+from repositories.track_repository import TrackRepository
 
 
 class TrackDatabase:
+
+    def __init__(self, repository=None):
+        self.repository = repository or TrackRepository(database)
 
     def add_track(
         self,
@@ -21,26 +23,7 @@ class TrackDatabase:
         status
     ):
 
-        conn = sqlite3.connect(DB)
-        cursor = conn.cursor()
-
-        cursor.execute("""
-            INSERT INTO tracks(
-                title,
-                album,
-                genre,
-                mood,
-                bpm,
-                musical_key,
-                prompt,
-                audio_file,
-                cover_file,
-                duration,
-                created_at,
-                status
-            )
-            VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
-        """, (
+        self.repository.create(
             title,
             album,
             genre,
@@ -53,36 +36,15 @@ class TrackDatabase:
             duration,
             created_at,
             status
-        ))
-
-        conn.commit()
-        conn.close()
+        )
 
     def get_tracks(self):
 
-        conn = sqlite3.connect(DB)
-        cursor = conn.cursor()
-
-        cursor.execute("SELECT * FROM tracks")
-
-        data = cursor.fetchall()
-
-        conn.close()
-
-        return data
+        return self.repository.all()
 
     def delete_track(self, track_id):
 
-        conn = sqlite3.connect(DB)
-        cursor = conn.cursor()
-
-        cursor.execute(
-            "DELETE FROM tracks WHERE id=?",
-            (track_id,)
-        )
-
-        conn.commit()
-        conn.close()
+        self.repository.delete(track_id)
 
     def update_track(
         self,
@@ -100,25 +62,7 @@ class TrackDatabase:
         status
     ):
 
-        conn = sqlite3.connect(DB)
-        cursor = conn.cursor()
-
-        cursor.execute("""
-            UPDATE tracks
-            SET
-                title=?,
-                album=?,
-                genre=?,
-                mood=?,
-                bpm=?,
-                musical_key=?,
-                prompt=?,
-                audio_file=?,
-                cover_file=?,
-                duration=?,
-                status=?
-            WHERE id=?
-        """, (
+        self.repository.update(
             title,
             album,
             genre,
@@ -131,10 +75,7 @@ class TrackDatabase:
             duration,
             status,
             track_id
-        ))
-
-        conn.commit()
-        conn.close()
+        )
 
 
 tracks = TrackDatabase()

@@ -1,0 +1,367 @@
+{
+    "Neoclassical|Hopeful|Violin|Cello": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Epic|Hopeful|Electric Guitar|": {
+        "count": 30,
+        "best_score": 92,
+        "average": 92.0
+    },
+    "Cinematic|Hopeful|Grand Piano|Cello": {
+        "count": 28,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Art Jazz|Melancholic|Tenor Sax|Grand Piano": {
+        "count": 25,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Art Jazz|Dreamy|Tenor Sax|Grand Piano": {
+        "count": 39,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Jazz|Emotional|Tenor Sax|Upright Bass": {
+        "count": 11,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Epic|Hopeful|Violin|Grand Piano": {
+        "count": 27,
+        "best_score": 92,
+        "average": 92.0
+    },
+    "Neoclassical|Dreamy|Electric Guitar|": {
+        "count": 3,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Ambient|Dreamy|Grand Piano|Cello": {
+        "count": 35,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Ambient|Emotional|Grand Piano|Cello": {
+        "count": 34,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Epic|Hopeful|Cello|Grand Piano": {
+        "count": 24,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Ambient|Dreamy|Flute|Grand Piano": {
+        "count": 35,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Cinematic|Hopeful|Cello|Grand Piano": {
+        "count": 26,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Jazz|Dreamy|Alto Sax|": {
+        "count": 15,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Dark|Grand Piano|Cello": {
+        "count": 6,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Cinematic|Hopeful|Violin|Grand Piano": {
+        "count": 29,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Dark Ambient|Melancholic|Flute|Grand Piano": {
+        "count": 36,
+        "best_score": 92,
+        "average": 92.0
+    },
+    "Jazz|Hopeful|Tenor Sax|Upright Bass": {
+        "count": 16,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Art Jazz|Melancholic|Grand Piano|Upright Bass": {
+        "count": 38,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Epic|Powerful|Violin|Grand Piano": {
+        "count": 15,
+        "best_score": 92,
+        "average": 92.0
+    },
+    "Jazz|Emotional|Grand Piano|Cello": {
+        "count": 19,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Ambient|Emotional|Flute|Grand Piano": {
+        "count": 33,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Dark Ambient|Dark|Flute|Grand Piano": {
+        "count": 37,
+        "best_score": 93,
+        "average": 93.0
+    },
+    "Cinematic|Emotional|Grand Piano|Cello": {
+        "count": 33,
+        "best_score": 98,
+        "average": 98.0
+    },
+    "Neoclassical|Melancholic|Alto Sax|": {
+        "count": 6,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Dark|Electric Guitar|": {
+        "count": 3,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Epic|Powerful|Cello|Grand Piano": {
+        "count": 25,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Dark Ambient|Dark|Cello|Grand Piano": {
+        "count": 35,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Art Jazz|Dreamy|Grand Piano|Upright Bass": {
+        "count": 30,
+        "best_score": 97,
+        "average": 97.0
+    },
+    "Neoclassical|Powerful|Tenor Sax|Grand Piano": {
+        "count": 7,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Hopeful|Electric Guitar|": {
+        "count": 7,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Hopeful|Alto Sax|": {
+        "count": 4,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Cinematic|Emotional|Violin|Grand Piano": {
+        "count": 18,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Cinematic|Emotional|Cello|Grand Piano": {
+        "count": 16,
+        "best_score": 98,
+        "average": 98.0
+    },
+    "Neoclassical|Melancholic|Cello|Grand Piano": {
+        "count": 4,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Emotional|Flute|Grand Piano": {
+        "count": 4,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Dark Ambient|Melancholic|Cello|Grand Piano": {
+        "count": 40,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Jazz|Dreamy|Grand Piano|Cello": {
+        "count": 18,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Epic|Powerful|Electric Guitar|": {
+        "count": 21,
+        "best_score": 92,
+        "average": 92.0
+    },
+    "Neoclassical|Melancholic|Flute|Grand Piano": {
+        "count": 4,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Dark|Alto Sax|": {
+        "count": 5,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Dreamy|Violin|Cello": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Powerful|Flute|Grand Piano": {
+        "count": 5,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Jazz|Dreamy|Tenor Sax|Upright Bass": {
+        "count": 15,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Jazz|Hopeful|Alto Sax|": {
+        "count": 17,
+        "best_score": 93,
+        "average": 93.0
+    },
+    "Neoclassical|Powerful|Cello|Grand Piano": {
+        "count": 4,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Dreamy|Grand Piano|Cello": {
+        "count": 2,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Powerful|Electric Guitar|": {
+        "count": 7,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Jazz|Emotional|Alto Sax|": {
+        "count": 10,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Hopeful|Cello|Grand Piano": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Dreamy|Alto Sax|": {
+        "count": 9,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Melancholic|Violin|Cello": {
+        "count": 6,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Jazz|Hopeful|Grand Piano|Cello": {
+        "count": 18,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Dark|Flute|Grand Piano": {
+        "count": 3,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Dreamy|Flute|Grand Piano": {
+        "count": 4,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Powerful|Violin|Cello": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Dark|Tenor Sax|Grand Piano": {
+        "count": 6,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Emotional|Alto Sax|": {
+        "count": 2,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Dark|Violin|Cello": {
+        "count": 2,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Emotional|Tenor Sax|Grand Piano": {
+        "count": 2,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Hopeful|Flute|Grand Piano": {
+        "count": 2,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Melancholic|Grand Piano|Cello": {
+        "count": 3,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Dark|Cello|Grand Piano": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Dreamy|Tenor Sax|Grand Piano": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Hopeful|Grand Piano|Cello": {
+        "count": 4,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Emotional|Grand Piano|Cello": {
+        "count": 1,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Hopeful|Tenor Sax|Grand Piano": {
+        "count": 5,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Emotional|Violin|Cello": {
+        "count": 2,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Melancholic|Electric Guitar|": {
+        "count": 3,
+        "best_score": 94,
+        "average": 94.0
+    },
+    "Neoclassical|Powerful|Grand Piano|Cello": {
+        "count": 4,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Melancholic|Tenor Sax|Grand Piano": {
+        "count": 1,
+        "best_score": 95,
+        "average": 95.0
+    },
+    "Neoclassical|Emotional|Cello|Grand Piano": {
+        "count": 2,
+        "best_score": 96,
+        "average": 96.0
+    },
+    "Neoclassical|Emotional|Electric Guitar|": {
+        "count": 1,
+        "best_score": 95,
+        "average": 95.0
+    }
+}

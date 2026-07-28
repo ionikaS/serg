@@ -171,5 +171,32 @@ class LearningEngine:
 
         }
 
+    # =====================================
+
+    def report(self):
+
+        db = self.load()
+
+        tracks = sum(
+            item["count"]
+            for item in db.values()
+        )
+
+        average = (
+            sum(
+                item["average"] * item["count"]
+                for item in db.values()
+            ) / tracks
+            if tracks else 0
+        )
+
+        return {
+
+            "tracks": tracks,
+
+            "average": round(average, 2)
+
+        }
+
 
 learning_engine = LearningEngine()

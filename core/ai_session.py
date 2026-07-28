@@ -91,3 +91,24 @@ class AISession:
             key=lambda x: x.ai_score
 
         )
+
+    def __iter__(self):
+
+        return iter(self.tracks)
+
+    def __len__(self):
+
+        return len(self.tracks)
+
+    def __getitem__(self, index):
+
+        return self.tracks[index]
+
+    def __getattr__(self, name):
+
+        if self.best_track is not None:
+            return getattr(self.best_track, name)
+
+        raise AttributeError(
+            f"{type(self).__name__!s} has no attribute {name!r}"
+        )

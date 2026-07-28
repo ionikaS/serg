@@ -60,6 +60,23 @@ class Database:
         )
         """)
 
+        cursor.execute("""
+        CREATE TABLE IF NOT EXISTS albums(
+
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+            project_id INTEGER,
+
+            title TEXT,
+
+            genre TEXT,
+
+            mood TEXT,
+
+            description TEXT
+        )
+        """)
+
         connection.commit()
 
         connection.close()

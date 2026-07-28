@@ -41,13 +41,7 @@ class Optimizer:
 
                 best_scores = scores
 
-        return {
-
-            "profile": best_profile,
-
-            "scores": best_scores
-
-        }
+        return best_profile
 
 
 optimizer = Optimizer()
